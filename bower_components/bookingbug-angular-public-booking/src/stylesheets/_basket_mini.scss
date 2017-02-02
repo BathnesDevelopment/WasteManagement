@@ -1,0 +1,39 @@
+.bb-basket-mini, div[bb-basket][mini] {
+
+  a {
+    text-decoration: none;
+  }
+
+  .glyphicon {
+    font-size: $font-size-h2;
+  }
+
+  .badge-notify {
+    background-color: red;
+    position: relative;
+    top: -34px;
+    right: 10px;
+    float: right;
+  }
+
+  table {
+    color: $gray-base;
+    font-size: $font-size-base;
+    .glyphicon {
+      font-size: $font-size-base;
+    }
+  }
+
+  span.glyphicon-shopping-cart {
+    padding-left: 60px;
+  }
+
+  span.disabled-cart {
+    opacity: 0.4;
+    &:hover {
+      cursor: default;
+    }
+  }
+
+}
+

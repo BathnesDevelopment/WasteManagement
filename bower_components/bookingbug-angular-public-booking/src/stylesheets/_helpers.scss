@@ -1,0 +1,9 @@
+.vertical-row-align {
+  @media (min-width: $screen-sm){
+    display: flex;
+    align-items: center;
+  }
+}
+.cursor-pointer{
+	cursor: pointer;
+}

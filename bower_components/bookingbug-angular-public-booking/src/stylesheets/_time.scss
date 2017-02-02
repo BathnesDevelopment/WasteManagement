@@ -1,0 +1,84 @@
+.bb-time, [bb-times] {
+
+  td:hover {
+    background-color: $gray-lighter;
+  }
+
+  p.bb-past {
+    color: $bb-gray;
+  }
+
+  li[bb-slot-grouper] {
+    @media ( min-width: $screen-sm-min ) {
+      min-height: 400px;
+    }
+  }
+
+  .bb-time-slot {
+    margin-bottom: 15px;
+  }
+
+  .bb-service-unavailable {
+    color: $bb-gray;
+    font-size: $font-size-large;
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 15px;
+  }
+
+  p {
+    margin-bottom: 0px
+  }
+
+  small {
+    font-weight: inherit;
+    color: inherit;
+  }
+
+  .bb-time-section-separator {
+    border-left: 1px solid $bb-gray;
+    border-right: 1px solid $bb-gray;
+    @media ( max-width: $screen-xs-max ) {
+      border: none;
+    }
+  }
+
+  .btn-link {
+    //color: #000000; TODO
+  }
+
+  .glyphicon-chevron-left {
+    margin-right: 5px;
+  }
+
+  .glyphicon-chevron-right {
+    margin-left: 5px;
+  }
+
+  .panel-heading {
+    cursor: pointer;
+  }
+
+  // disabled panel
+  .panel-default[disabled], .panel[disabled], .panel[disabled].expanded {
+    background: none;
+
+    .panel-heading {
+      cursor: default;
+      padding-bottom: 15px;
+    }
+    .panel-collapse {
+      display: none;
+    }
+    .panel-title {
+      color: $bb-gray;
+    }
+
+    small {
+      font-weight: inherit;
+      color: inherit;
+    }
+  }
+
+}

@@ -1,0 +1,35 @@
+{
+  "name": "bookingbug-angular-member",
+  "version": "2.0.44",
+  "homepage": "https://github.com/BookingBug/bookingbug-angular-member-bower",
+  "authors": [
+    "Glenn Shoosmith <glenn@bookingbug.com>",
+    "Ed Clements <ed@bookingbug.com>"
+  ],
+  "main": [
+    "bookingbug-angular-member.js",
+    "bookingbug-angular-member-templates.js",
+    "bookingbug-angular-member.css",
+    "src/stylesheets/*"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bookingbug-angular-core": "2.0.44"
+  },
+  "_release": "2.0.44",
+  "_resolution": {
+    "type": "version",
+    "tag": "v2.0.44",
+    "commit": "a80f2dbe8a2418b57a3a3cfd5c59e77d28a9ffeb"
+  },
+  "_source": "https://github.com/BookingBug/bookingbug-angular-member-bower.git",
+  "_target": "2.0.44",
+  "_originalSource": "bookingbug-angular-member"
+}
