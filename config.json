@@ -1,0 +1,13 @@
+{
+  "general": {
+    "build": {
+      "app_name": "WasteManagement_BathCentral",
+      "default_html": "/new_booking.html",
+      "server_port": 8000
+    },
+    "core": {
+      "api_url": "https://banes.council.bookingbug.com",
+      "company_id": "37025"
+    }
+  }
+}
